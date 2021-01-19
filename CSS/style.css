@@ -1,0 +1,232 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.header-left {
+  align-items: center;
+}
+
+.header-left a {
+  flex-grow: 1;
+}
+
+.header-left .Catagories {
+  flex-grow: 1;
+}
+
+.header-left form {
+  flex-grow: 5;
+  transition: all 0.5s;
+}
+
+.header-left form .input-group {
+  border-radius: 0.25rem;
+  overflow: hidden;
+}
+
+.header-left form .input-group input {
+  border: transparent;
+}
+
+.header-left form .input-group input:focus {
+  box-shadow: 0;
+}
+
+.header-left form .input-group i {
+  color: #ec5252;
+  background-color: white;
+  padding: 0.65rem;
+}
+
+.header-left form .input-group i:hover {
+  background-color: #ec5252;
+  color: white;
+  cursor: pointer;
+}
+
+.header-right .btn-login {
+  background-color: whitesmoke;
+  border-radius: 0.25rem;
+  border: 1px solid #ddd;
+  padding: auto 2rem;
+}
+
+#carousel {
+  background-image: url(../../img/cover.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 38rem;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+#carousel form {
+  transition: all 0.5s;
+}
+
+#carousel form .input-group {
+  border-radius: 0.25rem;
+  overflow: hidden;
+}
+
+#carousel form .input-group input {
+  border: transparent;
+}
+
+#carousel form .input-group input:focus {
+  box-shadow: 0;
+}
+
+#carousel form .input-group i {
+  color: #ec5252;
+  background-color: white;
+  padding: 0.65rem;
+}
+
+#carousel form .input-group i:hover {
+  background-color: #ec5252;
+  color: white;
+  cursor: pointer;
+}
+
+#online-courses {
+  background-image: linear-gradient(-45deg, #EC5252, #6E1A52);
+  color: #ffffff;
+}
+
+#online-courses .d-flex {
+  align-items: center;
+}
+
+#online-courses i {
+  font-size: 2rem;
+  padding-right: 1rem;
+}
+
+#The-world .d-flex {
+  flex-direction: column;
+  justify-content: center;
+}
+
+#The-world ul {
+  padding: 0;
+}
+
+#The-world ul li .col-3 {
+  padding-right: 0rem !important;
+}
+
+#The-world ul li a {
+  text-decoration: none;
+  color: #000;
+  border: transparent;
+}
+
+#The-world ul li a.nav-link {
+  padding: 0.3rem 0.5rem;
+}
+
+#The-world ul li a.active::after {
+  content: "";
+  width: 100%;
+  height: 2px;
+  background-color: blue;
+}
+
+#gray .d-flex {
+  align-items: center;
+  height: 180px;
+}
+
+#gray .d-flex i {
+  font-size: 2rem;
+}
+
+#gray .d-flex .content {
+  padding-left: 1rem;
+}
+
+#Students .card .card-body:hover {
+  border: transparent;
+  box-shadow: 0 1px 10px 0 rgba(20, 23, 28, 0.15);
+}
+
+#Students .card .d-flex {
+  align-items: center;
+}
+
+#Students .card .d-flex del {
+  font-size: 0.67rem;
+  padding: 0.25rem;
+}
+
+#personalized .color {
+  background-image: linear-gradient(-45deg, #EC5252 0%, #6E1A52 100%);
+  height: 0.83rem;
+}
+
+#categories .item {
+  box-shadow: 0 1px 3px 0 rgba(20, 23, 28, 0.15);
+  align-items: center;
+  padding: 0 1rem;
+}
+
+#categories .item:hover {
+  border: transparent;
+  box-shadow: 0 1px 10px 0 rgba(20, 23, 28, 0.15);
+}
+
+#categories .item i {
+  font-size: 1.5rem;
+  padding-right: 0.5rem;
+}
+
+#students-say .item {
+  box-shadow: 0 1px 3px 0 rgba(20, 23, 28, 0.15);
+}
+
+#students-say .item .d-flex {
+  align-items: center;
+}
+
+#students-say .item .d-flex .avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 9999px;
+  overflow: hidden;
+  margin-right: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+#Trusted img {
+  height: 1.5rem;
+  margin: 1.5rem;
+}
+
+footer {
+  font-size: 0.83rem;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+footer ul {
+  list-style: none;
+  padding-left: 0;
+  line-height: 2;
+}
+
+footer ul select {
+  padding: 0.5rem 1rem;
+}
+/*# sourceMappingURL=style.css.map */

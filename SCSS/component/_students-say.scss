@@ -1,0 +1,17 @@
+#students-say {
+    .item {
+        box-shadow: 0 1px 3px 0 rgba(20,23,28,.15);
+        .d-flex {
+            align-items: center;
+            .avatar {
+                width: 60px;
+                height: 60px;
+                border-radius: 9999px;
+                overflow: hidden;
+                margin-right: 1rem;
+                margin-bottom: 0.5rem;
+            }
+        }
+    }
+    
+}

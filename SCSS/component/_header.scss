@@ -1,0 +1,29 @@
+.header-left {
+    align-items: center;
+    //justify-content: center;
+
+    a {
+        flex-grow: 1;
+    }
+
+    .Catagories {
+        flex-grow: 1;
+    }
+
+    form {
+        
+        flex-grow: 5;
+
+        @include search      
+        
+    }
+}
+
+.header-right {
+    .btn-login {
+        background-color: whitesmoke;
+        border-radius: 0.25rem;
+        border: 1px solid #ddd;
+        padding: auto 2rem;
+    }
+}

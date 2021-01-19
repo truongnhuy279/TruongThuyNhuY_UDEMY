@@ -1,0 +1,27 @@
+#The-world {
+
+    ul {
+        padding: 0;
+        li {
+            .col-3 {
+                padding-right: 0rem !important;
+            }
+            a {
+                text-decoration: none;
+                color: #000;
+                border: transparent;
+            }
+            a.nav-link {
+                padding: 0.3rem 0.5rem;
+            }
+            a.active {
+                &::after {
+                    content: "";
+                    width: 100%;
+                    height: 2px;
+                    background-color: blue;
+                }
+            }
+        }
+    }
+}
